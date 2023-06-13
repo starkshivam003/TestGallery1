@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 68px px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0px
+}
+.gallery image{
+        width: 100%;
+}
+.img {
+    padding: 8%;
+}
+.heading {
+    font-size: 60px;
+    font-family: cursive;
+}
+.background{
+    background-color: cyan;
+}
